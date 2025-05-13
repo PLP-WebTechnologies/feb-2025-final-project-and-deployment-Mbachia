@@ -1,7 +1,7 @@
 # Maisha Mazuri Tours & Travel Website
 
 ## Live Demo
-[View the live website](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Mbachia/destinations.html)
+[View the live website](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Mbachia/index.html)
 
 ## Project Description
 Maisha Mazuri Tours & Travel is a responsive, multi-page website for a fictional Kenyan safari and tours company. The website showcases various safari destinations in Kenya including Maasai Mara, Tsavo National Park, and Lake Nakuru, providing potential customers with information about tour packages and services.
