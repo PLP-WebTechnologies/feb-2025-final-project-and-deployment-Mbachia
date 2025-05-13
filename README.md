@@ -18,7 +18,6 @@ This project was developed as part of a web technologies course assignment to de
 ### Interactive Elements
 - Image sliders for destination galleries
 - Testimonial carousel with auto-rotation
-- Interactive FAQ accordion
 - Form validation with JavaScript
 - Smooth animations and transitions
 
@@ -60,3 +59,4 @@ maisha-mazuri/
 
 ### Local Development
 1. Clone the repository:
+
