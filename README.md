@@ -54,9 +54,3 @@ maisha-mazuri/
     ├── lake-nakuru.jpg
     └── ...
 ```
-
-## Setup and Installation
-
-### Local Development
-1. Clone the repository:
-
