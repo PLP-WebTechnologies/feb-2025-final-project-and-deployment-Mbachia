@@ -1,25 +1,62 @@
-# Final Project and Deployment
+# Maisha Mazuri Tours & Travel Website
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+## Live Demo
+[View the live website](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Mbachia/destinations.html)
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Project Description
+Maisha Mazuri Tours & Travel is a responsive, multi-page website for a fictional Kenyan safari and tours company. The website showcases various safari destinations in Kenya including Maasai Mara, Tsavo National Park, and Lake Nakuru, providing potential customers with information about tour packages and services.
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+This project was developed as part of a web technologies course assignment to demonstrate skills in HTML5, CSS3, and JavaScript.
 
-## Tasks
+## Features
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+### Responsive Design
+- Fully responsive layout that works on all device sizes
+- Mobile-first approach with appropriate breakpoints
+- Hamburger menu for mobile navigation
 
-Good luck and happy coding! 🚀💻
+### Interactive Elements
+- Image sliders for destination galleries
+- Testimonial carousel with auto-rotation
+- Interactive FAQ accordion
+- Form validation with JavaScript
+- Smooth animations and transitions
+
+### Pages
+1. **Home Page** - Company introduction, featured destinations, testimonials
+2. **Destinations Page** - Detailed information about safari locations
+3. **Contact Page** - Contact form with validation, company information, FAQs
+
+## Technologies Used
+- HTML5 semantic markup
+- CSS3 with Flexbox and Grid layouts
+- Vanilla JavaScript (ES6+)
+- Font Awesome icons
+- Google Fonts
+- GitHub Pages for deployment
+
+## Project Structure
+
+```
+maisha-mazuri/
+│
+├── index.html              # Home page
+├── destinations.html       # Destinations page
+├── contact.html            # Contact page
+├── styles.css              # Main stylesheet
+├── script.js               # JavaScript functionality
+│
+└── images/                 # Image directory
+    ├── hero-bg.jpg
+    ├── cta-bg.jpg
+    ├── page-banner.jpg
+    ├── maasai-mara.jpg
+    ├── tsavo.jpg
+    ├── lake-nakuru.jpg
+    └── ...
+```
+
+## Setup and Installation
+
+### Local Development
+1. Clone the repository:
