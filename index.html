@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maisha Mazuri Tours & Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Maisha Mazuri</h1>
+            <p>Tours & Travel</p>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover the Beauty of Kenya</h2>
+            <p>Experience unforgettable adventures with our expertly guided tours</p>
+            <a href="destinations.html" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destinations-container">
+            <div class="destination-card">
+                <img src="Images\pexels-pixabay-59989.jpg" alt="Maasai Mara">
+                <div class="destination-info">
+                    <h3>Maasai Mara</h3>
+                    <p>Experience the world-famous wildebeest migration and see the Big Five in their natural habitat.</p>
+                    <a href="destinations.html#maasai-mara" class="btn-small">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="Images\pexels-lori-glaholm-heron-356636-1617411.jpg" alt="Tsavo National Park">
+                <div class="destination-info">
+                    <h3>Tsavo National Park</h3>
+                    <p>Explore Kenya's largest national park, home to the famous red elephants and diverse wildlife.</p>
+                    <a href="destinations.html#tsavo" class="btn-small">Learn More</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="Images\pexels-jvdm-1543415.jpg" alt="Lake Nakuru">
+                <div class="destination-info">
+                    <h3>Lake Nakuru</h3>
+                    <p>Witness the spectacular flamingo flocks and enjoy the scenic beauty of this alkaline lake.</p>
+                    <a href="destinations.html#lake-nakuru" class="btn-small">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Maisha Mazuri?</h2>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Expert Local Guides</h3>
+                <p>Our guides have in-depth knowledge of Kenya's wildlife and culture.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h3>Best Value</h3>
+                <p>Competitive prices without compromising on quality and experience.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Safety First</h3>
+                <p>Your safety is our priority with well-maintained vehicles and equipment.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-heart"></i>
+                <h3>Personalized Experience</h3>
+                <p>Customized tours to meet your specific interests and needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"Our safari with Maisha Mazuri was the trip of a lifetime! We saw all the Big Five and our guide was incredibly knowledgeable."</p>
+                <div class="client">
+                    <h4>Sarah Johnson</h4>
+                    <p>United States</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>"The attention to detail and personalized service made our family trip to Kenya unforgettable. Highly recommended!"</p>
+                <div class="client">
+                    <h4>David Chen</h4>
+                    <p>Canada</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>"Professional, friendly, and knowledgeable guides. Maisha Mazuri exceeded all our expectations!"</p>
+                <div class="client">
+                    <h4>Emma Williams</h4>
+                    <p>United Kingdom</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <span class="dot active" onclick="currentTestimonial(0)"></span>
+            <span class="dot" onclick="currentTestimonial(1)"></span>
+            <span class="dot" onclick="currentTestimonial(2)"></span>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready for Your Kenyan Adventure?</h2>
+        <p>Contact us today to plan your perfect safari experience</p>
+        <a href="contact.html" class="btn">Get in Touch</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Maisha Mazuri Tours & Travel</h3>
+                <p>Providing unforgettable Kenyan safari experiences since 2010.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Safari Road, Nairobi, Kenya</p>
+                <p><i class="fas fa-phone"></i> +254 123 456 789</p>
+                <p><i class="fas fa-envelope"></i> info@maishamazuri.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Maisha Mazuri Tours & Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

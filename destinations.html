@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Maisha Mazuri Tours & Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Maisha Mazuri</h1>
+            <p>Tours & Travel</p>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html" class="active">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <h2>Our Destinations</h2>
+        <p>Explore Kenya's most breathtaking wildlife reserves and national parks</p>
+    </section>
+
+    <section class="destination-details" id="maasai-mara">
+        <div class="destination-image">
+            <div class="image-slider">
+                <img src="Images\pexels-karen-alchin-261721-797677.jpg" alt="Maasai Mara Landscape" class="active">
+                <img src="Images\rhino.jpg" alt="Maasai Mara Wildlife">
+            </div>
+            <div class="slider-arrows">
+                <button class="prev" onclick="changeSlide(-1, 0)"><i class="fas fa-chevron-left"></i></button>
+                <button class="next" onclick="changeSlide(1, 0)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="destination-content">
+            <h2>Maasai Mara National Reserve</h2>
+            <p class="highlight">Home to the Great Migration - one of the Seven Natural Wonders of Africa</p>
+            <p>The Maasai Mara is Kenya's most famous wildlife reserve, known for its exceptional population of lions, leopards, cheetahs, and the annual wildebeest migration. The reserve is named after the Maasai people and the Mara River that flows through it.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>Witness the Great Migration (July to October)</li>
+                <li>Spot the Big Five: lion, leopard, elephant, buffalo, and rhino</li>
+                <li>Experience authentic Maasai culture</li>
+                <li>Take a hot air balloon safari at dawn</li>
+            </ul>
+            <h3>Best Time to Visit:</h3>
+            <p>June to October (dry season and migration), though the Mara is excellent for wildlife viewing year-round.</p>
+            <a href="contact.html" class="btn">Book This Tour</a>
+        </div>
+    </section>
+
+    <section class="destination-details" id="tsavo">
+        <div class="destination-image">
+            <div class="image-slider">
+                <img src="Images\tsavo.jpg" alt="Tsavo Landscape" class="active">
+                <img src="Images\pexels-taryn-elliott-6551965.jpg" alt="Tsavo Red Elephants">
+            </div>
+            <div class="slider-arrows">
+                <button class="prev" onclick="changeSlide(-1, 1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="next" onclick="changeSlide(1, 1)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="destination-content">
+            <h2>Tsavo National Park</h2>
+            <p class="highlight">Kenya's largest national park, divided into Tsavo East and Tsavo West</p>
+            <p>Tsavo is renowned for its vast wilderness and biodiversity. The park is famous for its red elephants, which appear red because they dust themselves with the park's distinctive red soil. Tsavo East offers great wildlife viewing in a semi-arid environment, while Tsavo West features more varied landscapes including volcanic hills and natural springs.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>See the famous red elephants</li>
+                <li>Visit Mzima Springs, a natural oasis with underwater viewing chamber</li>
+                <li>Explore the Shetani Lava Flows</li>
+                <li>Enjoy spectacular views of Mount Kilimanjaro from certain points</li>
+            </ul>
+            <h3>Best Time to Visit:</h3>
+            <p>June to October and January to February (dry seasons) for the best wildlife viewing.</p>
+            <a href="contact.html" class="btn">Book This Tour</a>
+        </div>
+    </section>
+
+    <section class="destination-details" id="lake-nakuru">
+        <div class="destination-image">
+            <div class="image-slider">
+                <img src="Images\fklamingos.jpg" alt="Lake Nakuru flamingo" class="active">
+                <img src="Images\giraffes.jpg" alt="Lake Nakuru giraffes">
+                <img src="Images\waterbuck.jpg" alt="Lake Nakuru Wildlife">
+            </div>
+            <div class="slider-arrows">
+                <button class="prev" onclick="changeSlide(-1, 2)"><i class="fas fa-chevron-left"></i></button>
+                <button class="next" onclick="changeSlide(1, 2)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="destination-content">
+            <h2>Lake Nakuru National Park</h2>
+            <p class="highlight">Famous for its flamingos and diverse bird species</p>
+            <p>Lake Nakuru National Park is centered around the shallow alkaline lake that attracts thousands of flamingos, creating a stunning pink border around the lake's edge. Beyond the flamingos, the park is home to both black and white rhinos, making it one of the best places in Kenya to see these endangered species.</p>
+            <h3>Highlights:</h3>
+            <ul>
+                <li>Witness the spectacular flamingo flocks (seasonal)</li>
+                <li>Spot both black and white rhinos</li>
+                <li>Visit Baboon Cliff for panoramic views</li>
+                <li>See Rothschild's giraffes and other wildlife</li>
+            </ul>
+            <h3>Best Time to Visit:</h3>
+            <p>June to February is generally good, with the dry seasons (June to October and January to February) offering the best wildlife viewing.</p>
+            <a href="contact.html" class="btn">Book This Tour</a>
+        </div>
+    </section>
+
+    <section class="other-destinations">
+        <h2>More Destinations to Explore</h2>
+        <div class="destinations-grid">
+            <div class="destination-item">
+                <img src="Images\ambsoseli.jpg" alt="Amboseli National Park">
+                <h3>Amboseli National Park</h3>
+                <p>Famous for its large elephant herds and views of Mount Kilimanjaro</p>
+            </div>
+            <div class="destination-item">
+                <img src="Images\samburu.jpg" alt="Samburu National Reserve">
+                <h3>Samburu National Reserve</h3>
+                <p>Home to unique wildlife species and beautiful arid landscapes</p>
+            </div>
+            <div class="destination-item">
+                <img src="Images\diani.jpg" alt="Diani Beach">
+                <h3>Diani Beach</h3>
+                <p>Pristine white sand beaches and crystal clear waters</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Explore Kenya?</h2>
+        <p>Contact us to customize your perfect safari adventure</p>
+        <a href="contact.html" class="btn">Get in Touch</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Maisha Mazuri Tours & Travel</h3>
+                <p>Providing unforgettable Kenyan safari experiences since 2010.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Safari Road, Nairobi, Kenya</p>
+                <p><i class="fas fa-phone"></i> +254 123 456 789</p>
+                <p><i class="fas fa-envelope"></i> info@maishamazuri.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Maisha Mazuri Tours & Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
